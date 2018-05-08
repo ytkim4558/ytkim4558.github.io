@@ -79,8 +79,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="15" />
+            <state relative-caret-position="562">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,18 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@햐</find>
-      <find>@ㅎ</find>
-      <find>@githu</find>
-      <find>git su</find>
-      <find>git sub</find>
-      <find>git subm</find>
-      <find>git submo</find>
-      <find>git submodu</find>
-      <find>git submodule</find>
-      <find>git submodul</find>
-      <find>g</find>
-      <find>git</find>
       <find>git cl</find>
       <find>git clo</find>
       <find>git clon</find>
@@ -148,6 +136,18 @@
       <find>@github</find>
       <find>puts</find>
       <find>&quot;</find>
+      <find>햣</find>
+      <find>햐</find>
+      <find>ㅎ</find>
+      <find>g</find>
+      <find>gith</find>
+      <find>github</find>
+      <find>github.</find>
+      <find>github.io</find>
+      <find>github.io.</find>
+      <find>github.io.g</find>
+      <find>github.io.gi</find>
+      <find>github.io.git</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -339,7 +339,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="17882000" />
+      <workItem from="1525772205040" duration="18871000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -579,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525796089702</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="로그 수정">
+      <created>1525796429071</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1525796429071</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30952000" />
+    <option name="totallyTimeSpent" value="31941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -626,7 +633,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis 세팅" />
     <MESSAGE value="travis 세팅2" />
     <MESSAGE value="travis 토큰 수정" />
     <MESSAGE value="Rakefile destination branch 수정" />
@@ -651,7 +657,8 @@
     <MESSAGE value="log test" />
     <MESSAGE value="로그 테스트2" />
     <MESSAGE value="로그 테스트3" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그 테스트3" />
+    <MESSAGE value="로그 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="로그 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1005,8 +1012,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="15" />
+        <state relative-caret-position="562">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
