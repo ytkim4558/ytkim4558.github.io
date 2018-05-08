@@ -51,6 +51,7 @@ namespace :site do
     if ENV["TRAVIS"]
       sh "git config --global user.name $GIT_NAME"
       sh "git config --global user.email $GIT_EMAIL"
+      sh "git config --global user.password $GITHUB_TOKEN"
       sh "git config --global push.default simple"
     end
 
@@ -70,7 +71,7 @@ namespace :site do
       sh "if [ -n '$(git status)' ]; then
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
-            git push https://github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH}@#{sha} --quiet;
+            git push https://github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --quiet;
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
