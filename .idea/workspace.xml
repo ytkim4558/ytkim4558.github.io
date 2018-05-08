@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,21 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="14" lean-forward="false" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+            <state relative-caret-position="-404">
+              <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="698" lean-forward="true" selection-start-line="25" selection-start-column="698" selection-end-line="25" selection-end-column="698" />
+            <state relative-caret-position="476">
+              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="atom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,18 +101,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>post-full-content</find>
       <find>set</find>
       <find>throw</find>
       <find>build</find>
@@ -159,6 +156,7 @@
       <find>lasmod</find>
       <find>github.com</find>
       <find>gh</find>
+      <find>repo</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -180,9 +178,9 @@
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/.git/config" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -348,7 +346,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="1812000" />
+      <workItem from="1525772205040" duration="2665000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -427,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525773903624</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="travis secure 토큰에 repo 추가하여 다시 재생성">
+      <created>1525777166069</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1525777166069</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14882000" />
+    <option name="totallyTimeSpent" value="15735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -485,7 +490,8 @@
     <MESSAGE value="travis 토큰 수정" />
     <MESSAGE value="Rakefile destination branch 수정" />
     <MESSAGE value="travis secure 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis secure 수정" />
+    <MESSAGE value="travis secure 토큰에 repo 추가하여 다시 재생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis secure 토큰에 repo 추가하여 다시 재생성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,14 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="14" lean-forward="false" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -797,8 +795,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="698" lean-forward="true" selection-start-line="25" selection-start-column="698" selection-end-line="25" selection-end-column="698" />
+        <state relative-caret-position="476">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding />
         </state>
       </provider>

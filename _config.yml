@@ -16,16 +16,17 @@ baseurl: /
 title: KimYongTak's Tech Blog
 description: Development & Technical Training
 # blog home에 표시될 blog에 대한 전반적인 설명
-cover: assets/images/blog-cover.jpg
+cover: assets/built/images/blog-cover.jpg
 # blog home에 표시될 blog 커버 이미지
 
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+logo:
+logo_dark:
+favicon: assets/built/images/favicon.png
 production_url: https://ytkim4558.github.io/
 # 최종적으로 blog가 운영될 url
 
 source_url: https://github.com/ytkim4558/GitHubPageMaker/
+# blogmaker(jekyll source folder)에 대한 github repository
 
 # Social info
 navigation: True # show the navbar links
@@ -36,9 +37,9 @@ twitter: ytkim4558 # replace by your username
 facebook: ytkim4558 # replace by your username
 
 # Disqus
-disqus: False
+disqus: True
 #disqus_shortname: jekyller # replace with your disqus username
-disqus_shortname: 
+disqus_shortname: yongtak-blog
 
 # Google Analytics
 #google_analytics: UA-69281367-1 # replace with your GA tracking identifier
@@ -53,7 +54,7 @@ permalink: /:title
 # Tags' info in `_data/tags_info.yml`
 
 # gems and other configs
-plugins: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
 
 feed:
   path: feed.xml
@@ -79,7 +80,7 @@ feed:
 safe: False
 lsi: False
 username: ytkim4558
-repo: ytkim4558.github.io
+repo: GitHubPageMaker
 branch: master
 relative_source:
 destination: ./output/
