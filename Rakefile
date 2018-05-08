@@ -70,11 +70,9 @@ namespace :site do
       # check if there is anything to add and commit, and pushes it
       puts "pass2"
       sh "if [ -n '$(git status)' ]; then
-            puts "pass3"
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
             git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --quiet ;
-            puts "pass4"
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
