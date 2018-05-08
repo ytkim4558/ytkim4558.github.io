@@ -75,6 +75,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="atom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,16 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -127,12 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Subscribe</find>
-      <find>Subscribe t</find>
-      <find>Subscribe to</find>
-      <find>subscribe-</find>
-      <find>S</find>
-      <find>Sea</find>
       <find>Sear</find>
       <find>Searc</find>
       <find>Search</find>
@@ -157,6 +151,12 @@
       <find>travis.o</find>
       <find>travis.</find>
       <find>travis</find>
+      <find>ㄴㄷ</find>
+      <find>ㄴ</find>
+      <find>s</find>
+      <find>secu</find>
+      <find>secure</find>
+      <find>secure:</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -346,7 +346,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="5130000" />
+      <workItem from="1525772205040" duration="5604000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -467,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525780131288</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="travis.com 에서 travis.org 되게끔 수정">
+      <created>1525780484299</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1525780484299</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18200000" />
+    <option name="totallyTimeSpent" value="18674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -531,7 +538,8 @@
     <MESSAGE value="secure에 travis guide 대로 다시 재생성" />
     <MESSAGE value="secure에 GH TOKEN 따옴표 붙여서 테스트" />
     <MESSAGE value="secure 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="secure 테스트" />
+    <MESSAGE value="travis.com 에서 travis.org 되게끔 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis.com 에서 travis.org 되게끔 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,6 +853,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>
