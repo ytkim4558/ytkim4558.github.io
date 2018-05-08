@@ -1,85 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ytkim4558.github.io" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ytkim4558.github.io.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/a-full-and-comprehensive-style-test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/about/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/advanced-markdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/global.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/screen.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/screen.edited.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/screen.edited.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/syntax.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/built/syntax.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/abraham.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/advanced.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/bear.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/blog-cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/blog-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/bus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/design.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/edgar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/fables.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/ghost-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/ghost.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/grapes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/hannah-cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/hannah.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/john.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/lewis.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/locked.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/martin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/piano.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/sky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/speeches.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/summit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/tags.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/team.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/water.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/waves.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/welcome.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/images/writing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/js/infinitescroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/js/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/screenshot-desktop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/assets/screenshot-mobile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/abraham/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/edgar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/ghost/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/hannah/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/john/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/lewis/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/martin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/down-the-rabbit-hole.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/feed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/gettysburg-address.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/i-have-a-dream.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/looking-glass-house.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/managing-users.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/out-to-sea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/private-sites.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/fables/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/fiction/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/getting-started/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/speeches/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/the-businessman-and-fisherman.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/the-editor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/the-purpose-of-education.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/themes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/using-tags.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/welcome.html" afterPath="" />
+    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="check">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ytkim4558.github.io" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,11 +37,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sitemap.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.git/config">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -127,38 +93,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subscribe-form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/subscribe-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lunr.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/lunr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -212,7 +146,6 @@
       <find>Subscri</find>
       <find>Subscrib</find>
       <find>Subscribe</find>
-      <find>Subscribe</find>
       <find>Subscribe t</find>
       <find>Subscribe to</find>
       <find>subscribe-</find>
@@ -224,9 +157,9 @@
       <find>Search...</find>
       <find>Search..</find>
       <find>Search.</find>
-      <find>Search</find>
       <find>l</find>
       <find>lasmod</find>
+      <find>github.com</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -247,7 +180,9 @@
         <option value="$PROJECT_DIR$/search.js" />
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
+        <option value="$PROJECT_DIR$/.git/config" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -267,10 +202,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2868" />
-    <option name="y" value="507" />
+    <option name="x" value="2552" />
+    <option name="y" value="158" />
     <option name="width" value="2576" />
-    <option name="height" value="1414" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -411,7 +346,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
-      <workItem from="1525766231852" duration="800000" />
+      <workItem from="1525766231852" duration="2177000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -448,19 +383,26 @@
       <option name="project" value="LOCAL" />
       <updated>1525760484318</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="check">
+      <created>1525767053209</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525767053209</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11037000" />
+    <option name="totallyTimeSpent" value="12414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2868" y="507" width="2576" height="1414" extended-state="0" />
+    <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33046874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -500,7 +442,8 @@
     <MESSAGE value="검색 기능, Google Search Console 업로드," />
     <MESSAGE value="google search console 인증서 추가" />
     <MESSAGE value="JEKYLL_ENV production build" />
-    <option name="LAST_COMMIT_MESSAGE" value="JEKYLL_ENV production build" />
+    <MESSAGE value="check" />
+    <option name="LAST_COMMIT_MESSAGE" value="check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,18 +639,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+    <entry file="file://$PROJECT_DIR$/.git/config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding />
         </state>
       </provider>

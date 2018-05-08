@@ -8,6 +8,12 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
+
+before_script:
+  - git config --global user.email "ytkim4558@naver.com"
+  - git config --global user.name "Kim Yong Tak"
+
+
 script: bundle exec rake site:deploy --quiet #--trace
 
 # Generate your secure token with the travis gem:
