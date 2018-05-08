@@ -15,16 +15,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="18" lean-forward="false" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robots.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -346,7 +336,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="5604000" />
+      <workItem from="1525772205040" duration="6441000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -474,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525780484299</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="travis.com 에서 travis.org 되게끔 수정">
+      <created>1525780950583</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1525780950583</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18674000" />
+    <option name="totallyTimeSpent" value="19511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -861,6 +858,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.travis/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
