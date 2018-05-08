@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
+    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="secure 위치 수정">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +15,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sitemap.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.git/config">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,8 +28,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+            <state relative-caret-position="77">
+              <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -55,21 +45,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitmodules">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -98,8 +98,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-339">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="511">
+              <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -145,8 +145,6 @@
       <find>repo</find>
       <find>blog-con</find>
       <find>exclude</find>
-      <find>gh</find>
-      <find>GitHubPageMaker</find>
       <find>d</find>
       <find>disp</find>
       <find>displa</find>
@@ -157,6 +155,8 @@
       <find>displaySear</find>
       <find>displaySearc</find>
       <find>displaySearch</find>
+      <find>gh</find>
+      <find>GitHubPageMaker</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -173,7 +173,6 @@
         <option value="$PROJECT_DIR$/_includes/site-nav.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/subscribe-form.html" />
-        <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/search.js" />
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
@@ -181,6 +180,8 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/search.html" />
+        <option value="$PROJECT_DIR$/.gitmodules" />
       </list>
     </option>
   </component>
@@ -346,7 +347,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="10018000" />
+      <workItem from="1525772205040" duration="11434000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -509,11 +510,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525787969009</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="secure 위치 수정">
+      <created>1525788439673</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1525788439673</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23088000" />
+    <option name="totallyTimeSpent" value="24504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -578,7 +586,8 @@
     <MESSAGE value="--add 옵션으로 따옴표 떼서 테스트" />
     <MESSAGE value="테스트 hooks" />
     <MESSAGE value="테스트 GH_TOKEN-&gt;GITHUB_TOKEN" />
-    <option name="LAST_COMMIT_MESSAGE" value="테스트 GH_TOKEN-&gt;GITHUB_TOKEN" />
+    <MESSAGE value="secure 위치 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="secure 위치 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -792,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/lunr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -882,30 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-532">
@@ -916,8 +893,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
