@@ -22,6 +22,8 @@ cover: assets/built/images/blog-cover.jpg
 logo:
 logo_dark:
 favicon: assets/built/images/favicon.png
+# favicon으로 사용할 이미지
+
 production_url: https://ytkim4558.github.io/
 # 최종적으로 blog가 운영될 url
 
@@ -55,6 +57,7 @@ permalink: /:title
 
 # gems and other configs
 plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+exclude: [vendor]
 
 feed:
   path: feed.xml
