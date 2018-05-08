@@ -80,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="562">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -339,7 +339,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="18871000" />
+      <workItem from="1525772205040" duration="19522000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -586,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525796429071</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="커밋은 되는지 체크">
+      <created>1525797417084</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1525797417084</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31941000" />
+    <option name="totallyTimeSpent" value="32592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -633,7 +640,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis 세팅2" />
     <MESSAGE value="travis 토큰 수정" />
     <MESSAGE value="Rakefile destination branch 수정" />
     <MESSAGE value="travis secure 수정" />
@@ -658,7 +664,8 @@
     <MESSAGE value="로그 테스트2" />
     <MESSAGE value="로그 테스트3" />
     <MESSAGE value="로그 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그 수정" />
+    <MESSAGE value="커밋은 되는지 체크" />
+    <option name="LAST_COMMIT_MESSAGE" value="커밋은 되는지 체크" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1013,7 +1020,7 @@
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
           <folding />
         </state>
       </provider>
