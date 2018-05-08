@@ -78,8 +78,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+            <state relative-caret-position="249">
+              <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -107,19 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s</find>
-      <find>secu</find>
-      <find>secure</find>
-      <find>secure:</find>
-      <find>햣</find>
-      <find>햐</find>
-      <find>ㅎ</find>
-      <find>G</find>
-      <find>Git</find>
-      <find>GitH</find>
-      <find>GitHub</find>
-      <find>GitHubPage</find>
-      <find>GitHubPageM</find>
       <find>GitHubPageMa</find>
       <find>GitHubPageMak</find>
       <find>repo</find>
@@ -134,9 +121,22 @@
       <find>displaySea</find>
       <find>displaySear</find>
       <find>displaySearc</find>
-      <find>displaySearch</find>
       <find>GitHubPageMaker</find>
       <find>gh</find>
+      <find>displaySearch</find>
+      <find>햤</find>
+      <find>햐</find>
+      <find>ㅎ</find>
+      <find>G</find>
+      <find>GITH</find>
+      <find>GITHUB</find>
+      <find>GITHUB_</find>
+      <find>GITHUB_T</find>
+      <find>GITHUB_TO</find>
+      <find>GITHUB_TOK</find>
+      <find>GITHUB_TOKE</find>
+      <find>GITHUB_TOKEN</find>
+      <find>deploy</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -327,7 +327,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="12262000" />
+      <workItem from="1525772205040" duration="13533000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -504,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525790035356</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="gitmodules 수정">
+      <created>1525790798631</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1525790798631</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25332000" />
+    <option name="totallyTimeSpent" value="26603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -913,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        <state relative-caret-position="249">
+          <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="14" />
           <folding />
         </state>
       </provider>
