@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="-404">
+              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -181,6 +181,7 @@
         <option value="$PROJECT_DIR$/.git/config" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -346,7 +347,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="286000" />
+      <workItem from="1525772205040" duration="515000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -404,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525772235608</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="travis 토큰 수정">
+      <created>1525772502088</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1525772502088</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13356000" />
+    <option name="totallyTimeSpent" value="13585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -459,7 +467,8 @@
     <MESSAGE value="check" />
     <MESSAGE value="travis 세팅" />
     <MESSAGE value="travis 세팅2" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis 세팅2" />
+    <MESSAGE value="travis 토큰 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis 토큰 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -761,18 +770,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding />
         </state>
       </provider>
