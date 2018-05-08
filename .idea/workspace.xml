@@ -78,8 +78,18 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="77" column="3" lean-forward="false" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+            <state relative-caret-position="511">
+              <caret line="69" column="121" lean-forward="false" selection-start-line="69" selection-start-column="121" selection-end-line="69" selection-end-column="121" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -107,36 +117,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>repo</find>
-      <find>blog-con</find>
-      <find>exclude</find>
-      <find>d</find>
-      <find>disp</find>
-      <find>displa</find>
-      <find>display</find>
-      <find>displayS</find>
-      <find>displaySe</find>
-      <find>displaySea</find>
-      <find>displaySear</find>
-      <find>displaySearc</find>
-      <find>GitHubPageMaker</find>
-      <find>gh</find>
-      <find>displaySearch</find>
-      <find>햤</find>
-      <find>햐</find>
-      <find>ㅎ</find>
-      <find>GITH</find>
-      <find>GITHUB</find>
-      <find>GITHUB_T</find>
-      <find>deploy</find>
-      <find>G</find>
-      <find>GIT</find>
-      <find>GITHU</find>
-      <find>GITHUB_</find>
-      <find>GITHUB_TO</find>
-      <find>GITHUB_TOK</find>
-      <find>GITHUB_TOKE</find>
       <find>GITHUB_TOKEN</find>
+      <find>@햣</find>
+      <find>@햐</find>
+      <find>@ㅎ</find>
+      <find>@githu</find>
+      <find>git su</find>
+      <find>git sub</find>
+      <find>git subm</find>
+      <find>git submo</find>
+      <find>git submodu</find>
+      <find>git submodule</find>
+      <find>git submodul</find>
+      <find>g</find>
+      <find>git</find>
+      <find>git cl</find>
+      <find>git clo</find>
+      <find>git clon</find>
+      <find>git clone</find>
+      <find>deploy</find>
+      <find>h</find>
+      <find>http</find>
+      <find>https:</find>
+      <find>https://@</find>
+      <find>https://</find>
+      <find>@</find>
+      <find>@g</find>
+      <find>@gi</find>
+      <find>@git</find>
+      <find>@gith</find>
+      <find>@github</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -161,6 +171,7 @@
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/output/Rakefile" />
         <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
@@ -327,7 +338,7 @@
       <updated>1525731211011</updated>
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
-      <workItem from="1525772205040" duration="15004000" />
+      <workItem from="1525772205040" duration="15855000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -525,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525792607331</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="git push 주소 수정">
+      <created>1525793608779</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1525793608779</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28074000" />
+    <option name="totallyTimeSpent" value="28925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -572,7 +590,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="문법강조" />
     <MESSAGE value="검색 기능, Google Search Console 업로드," />
     <MESSAGE value="google search console 인증서 추가" />
     <MESSAGE value="JEKYLL_ENV production build" />
@@ -597,7 +614,8 @@
     <MESSAGE value="gitmodules 수정" />
     <MESSAGE value="secure 수정" />
     <MESSAGE value="토큰 범위 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="토큰 범위 수정" />
+    <MESSAGE value="git push 주소 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="git push 주소 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,10 +959,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/output/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="77" column="3" lean-forward="false" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+        <state relative-caret-position="511">
+          <caret line="69" column="121" lean-forward="false" selection-start-line="69" selection-start-column="121" selection-end-line="69" selection-end-column="121" />
           <folding />
         </state>
       </provider>
