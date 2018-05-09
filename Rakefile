@@ -79,7 +79,8 @@ namespace :site do
          sh "git pull origin master && git submodule init && git submodule update && git submodule update --remote && git submodule status"
          sh "git add --all"
          sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-         sh "git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH}"
+         #sh "git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH}"
+         sh "git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --recurse-submodules=only"
         # fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
