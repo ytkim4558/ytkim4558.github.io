@@ -69,6 +69,7 @@ namespace :site do
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
+       puts Dir.pwd
       # check if there is anything to add and commit, and pushes it
       #sh "if [ -n '$(git status)' ]; then
          #   git add --all .;
