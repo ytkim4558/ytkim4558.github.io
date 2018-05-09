@@ -9,8 +9,6 @@ before_script:
 - git config --global user.email "ytkim4558@naver.com"
 - git config --global user.name "ytkim4558"
 script: bundle exec rake site:deploy --quiet
-after_script:
-- git push https://$GITHUB_TOKEN@github.com/ytkim4558/ytkim4558@gihub.io.git --quiet
 env:
   global:
     secure: "ipghy5fhQZP56i5ZG3wnBDHhII6pqO+jS2RI1wE5/5Md+CVtFrh9eliC1qY/sBOci4Deo1gtjHqJXG8sd1vRiG1iqwI9LAiqz/HyNrReNdn8K18meyEXaMCzzv7/axasxMOO5adaLPabozegIvP0zpQXBIdpL9EQcj0anVNqQo+DHdJCMz93HBKaNcWqBKg4NFfYaJ8V3ZCjAWRu52rmi+ZXSMaPuArC8wD2BYgSkQAGRmxD+pxDhCTy5zeI1l5VkThDRuSqwuXo3O0Ss0v8ivuAtkWQynCYHkU48/eCY3CV3EG7Nv8BLQPok/HkwayoMCXlX309p45Mh6VNr2Ax6AU7WfpBbLdyvuGvOFuV/wxJaVoRe3u86WU5aHZ2VQZk71gk/RwPDMGXxLJke5JyeoU8Re7PHZ76eVsfI1rTXjaJXUd3YxJRDaQUTr1TEGMS5Px3DkiwahP4Fav+LUTcV03q0ywHQNS7OpDd8aZlqF5srw5If9Bd3saBTUs0jgHZCebNEtApz5u90ig1sSbm/MHSpnWTlfLYUCh4AyP6YnkGwv5PtNug8ZUptj1s5ai0vwY3Zc6BZ6xudZ44mDMFaSb8ReQSYiEVHfueQjLatwFc9r44wzZoXkpNOGLv6aXgOGVkKXJ/JUZACkZf2nsyHFjIFq8B74EiRM5dGlL4Z74="
