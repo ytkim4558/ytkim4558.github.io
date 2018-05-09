@@ -72,6 +72,7 @@ namespace :site do
       # check if there is anything to add and commit, and pushes it
       sh "if [ -n '$(git status)' ]; then
             git add --all .;
+            git pull && git submodule init && git submodule update && git submodule status.;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
             git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH};
          fi"

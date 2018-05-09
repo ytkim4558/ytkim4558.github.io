@@ -92,8 +92,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="61" column="86" lean-forward="false" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="86" />
+            <state relative-caret-position="544">
+              <caret line="74" column="92" lean-forward="false" selection-start-line="74" selection-start-column="92" selection-end-line="74" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -435,14 +435,7 @@
       <workItem from="1525766231852" duration="2833000" />
       <workItem from="1525772205040" duration="20482000" />
       <workItem from="1525824323237" duration="28717000" />
-      <workItem from="1525881898433" duration="1500000" />
-    </task>
-    <task id="LOCAL-00027" summary="secure 수정">
-      <created>1525792075298</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1525792075298</updated>
+      <workItem from="1525881898433" duration="1816000" />
     </task>
     <task id="LOCAL-00028" summary="토큰 범위 수정">
       <created>1525792607331</created>
@@ -780,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525883186951</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="submodule update">
+      <created>1525883405282</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1525883405282</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63769000" />
+    <option name="totallyTimeSpent" value="64085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -1237,8 +1237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="61" column="86" lean-forward="false" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="86" />
+        <state relative-caret-position="544">
+          <caret line="74" column="92" lean-forward="false" selection-start-line="74" selection-start-column="92" selection-end-line="74" selection-end-column="92" />
           <folding />
         </state>
       </provider>
