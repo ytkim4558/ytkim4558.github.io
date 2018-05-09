@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="git add 앞에 한번 더">
+    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
     </list>
@@ -88,8 +88,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="81" column="115" lean-forward="false" selection-start-line="81" selection-start-column="115" selection-end-line="81" selection-end-column="115" />
+            <state relative-caret-position="532">
+              <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -127,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>W</find>
       <find>Wel</find>
       <find>Welcome</find>
       <find>If you use Disqus comments, just uncomment this block.</find>
@@ -157,6 +156,7 @@
       <find>encrypt</find>
       <find>disqus</find>
       <find>simple</find>
+      <find>submodule</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -432,14 +432,7 @@
       <workItem from="1525772205040" duration="20482000" />
       <workItem from="1525824323237" duration="28717000" />
       <workItem from="1525881898433" duration="2607000" />
-      <workItem from="1525884956240" duration="1567000" />
-    </task>
-    <task id="LOCAL-00035" summary="로그 수정">
-      <created>1525796429071</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1525796429071</updated>
+      <workItem from="1525884956240" duration="1951000" />
     </task>
     <task id="LOCAL-00036" summary="커밋은 되는지 체크">
       <created>1525797417084</created>
@@ -777,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525885940617</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="git add 앞에 한번 더">
+      <created>1525886527453</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1525886527453</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66443000" />
+    <option name="totallyTimeSpent" value="66827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -1235,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="81" column="115" lean-forward="false" selection-start-line="81" selection-start-column="115" selection-end-line="81" selection-end-column="115" />
+        <state relative-caret-position="532">
+          <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
           <folding />
         </state>
       </provider>
