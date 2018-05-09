@@ -51,7 +51,6 @@ namespace :site do
     if ENV["TRAVIS"]
       sh "git config --global user.name $GIT_NAME"
       sh "git config --global user.email $GIT_EMAIL"
-      sh "git config --global push.default simple"
     end
 
     # Make sure destination folder exists as git repo
