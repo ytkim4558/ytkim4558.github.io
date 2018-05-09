@@ -13,6 +13,11 @@ before_script:
   - git config --global user.name "ytkim4558"
 
 script: bundle exec rake site:deploy --quiet #--trace
+after_script:
+  - cd output
+  - git add .
+  - git commit -m "test"
+  - git push https://${GITHUB_TOKEN}@github.com/ytkim4558/ytkim4558.github.io.git master --quiet
 
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
