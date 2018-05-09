@@ -71,7 +71,7 @@ namespace :site do
     Dir.chdir(CONFIG["destination"]) do
       # check if there is anything to add and commit, and pushes it
       sh "if [ -n '$(git status)' ]; then
-            git submodule update.;
+            git pull && git submodule init && git submodule update && git submodule status.;
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
             git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH};

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="포스트 한글 변경 테스트">
+    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
     </list>
@@ -88,8 +88,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+            <state relative-caret-position="543">
+              <caret line="73" column="92" lean-forward="false" selection-start-line="73" selection-start-column="92" selection-end-line="73" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -432,14 +432,7 @@
       <workItem from="1525772205040" duration="20482000" />
       <workItem from="1525824323237" duration="28717000" />
       <workItem from="1525881898433" duration="2607000" />
-      <workItem from="1525884956240" duration="246000" />
-    </task>
-    <task id="LOCAL-00032" summary="log test">
-      <created>1525795254142</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1525795254142</updated>
+      <workItem from="1525884956240" duration="761000" />
     </task>
     <task id="LOCAL-00033" summary="로그 테스트2">
       <created>1525795617979</created>
@@ -777,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525884484788</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="git submodule update">
+      <created>1525885215246</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1525885215247</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65122000" />
+    <option name="totallyTimeSpent" value="65637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -824,7 +824,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="secure 수정" />
     <MESSAGE value="토큰 범위 수정" />
     <MESSAGE value="git push 주소 수정" />
     <MESSAGE value="tests" />
@@ -849,7 +848,8 @@
     <MESSAGE value="submodule update" />
     <MESSAGE value="github 새로 팜 기존건 다른이름으로 저장 before_를 앞에 붙일 예정" />
     <MESSAGE value="포스트 한글 변경 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="포스트 한글 변경 테스트" />
+    <MESSAGE value="git submodule update" />
+    <option name="LAST_COMMIT_MESSAGE" value="git submodule update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1235,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+        <state relative-caret-position="543">
+          <caret line="73" column="92" lean-forward="false" selection-start-line="73" selection-start-column="92" selection-end-line="73" selection-end-column="92" />
           <folding />
         </state>
       </provider>
