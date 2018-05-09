@@ -14,6 +14,7 @@ USERNAME = CONFIG["username"]
 REPO = CONFIG["repo"]
 SOURCE_BRANCH = CONFIG["branch"]
 DESTINATION_BRANCH = "master"
+GITHUB_TOKEN = $GITHUB_TOKEN
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
@@ -70,7 +71,7 @@ namespace :site do
       sh "if [ -n '$(git status)' ]; then
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
-            git push https://$GIT_NAME:$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --quiet;
+            git push https://#{GITHUB_TOKEN}@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --quiet;
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
