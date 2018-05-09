@@ -59,6 +59,7 @@ namespace :site do
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) {
     sh "git checkout #{DESTINATION_BRANCH}"
+    sh "git pull && git submodule init && git submodule update && git submodule status"
     sh "git submodule update --recursive --remote"
     }
 
