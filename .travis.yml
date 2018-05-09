@@ -13,10 +13,6 @@ before_script:
   - git config --global user.name "ytkim4558"
 
 script: bundle exec rake site:deploy --quiet #--trace
-after_script:
-  - mv push.sh output/push.sh
-  - cd output
-  - push.sh
 
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
@@ -25,7 +21,7 @@ after_script:
 # travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
 env:
   global:
-    secure: "WAAm24Sw8WkHdHqCTKRq/bvFPkZU3LULW3VUHk3BkqQcn7Toi5ar9xoGMGeW8N6xZFYxU4t33gV4kmZS/L2hj5QaugWsg+/bzGbc+Psh9UE2aeH6GTw2lCG5KvlwRlEkvqxKpAnxl3fwyUTa9j/le0KrONWq6PJTBrPWJF6MGNav4N6EB2xkB+PRA6n/dfW+JaaPkVxBpZSzpsZQ2v44+KVRZEbxw723ea+nJTzSLb4z+lzKZCArIG3isci2ELxLdCLcWdXlaiQoPXMkUp2z6YzKW81IJrjeKKSTZyq1OHP+6AaHsdRPnRsMLk8rdJ9I1FA+UTaYpSbvSPqU/5leuk/zizRwMGTFZlXg82KzwshrO5ecKdoxeecC2S6d/8D6FrRVLrzCagFJaVNtMPNidWAxHTTfTCOnwzWUrgQb4ijALjm6caNt8VZxqZkTBFMwzTpbhzMl6QEJBHKD08ohrw8kcNyPvk/aOgvhn7wIBbpiW/xvrC1PydC3nzPwqdN2brLcvXCVUI1P2CjcsysPzbMwaxhqh4O12lostRmNKWfh3EBdLpFu8ym0LzDjxX0yAzaG1NNsMNx6vieZGMbaNdjO1pUPa12q+zCXfPAh5v8A5uYQ/WIu8b9BJ480396Yr81aDjnQ4YHYkDgz+3zZ0xj/j+H7PNGFkc3l3l8fMVM="
+    secure: "cZETrjJoGp+HyBC3b6D5zFt2aDr4ttVLgKXjyiCgSDCQd9U4woSvpC8BRT5JjZ8oAP/O2ylSR1DSGP+2xdd6Z5xsTb34B2FQVT8taFOsLgWgiP4v9rc5y/XD4r6MNqTF2Vht0NxQTdQmbNaeDtv5JTZCmMHFIf2Ho3uHbRZkBryDUVlZZb5xrQ5VK7NtRRnKw0b30r3grTsLsd/+Kj6EXnliukbJNGbRcI47Kn2eRCDjGeeePISLhA/Ua5jkjalGp/5GDQDTD2DgP1VTfszB0orMDy3Lq4qALzgOjvEI/EaU1/luouen43NURslcl9FGPXbB/Hf0sLks7NuMwoXvEAZ3Lb4xWwh0CJ8tO4vA17Ysarw31qNWkIdOt4PnnnMT5r04nvUkzeozBcfGFBRSTyFnrtTaFR28xDGWctx1yVGSlr3iz8fa9R7bUWKx3k5XypgH1ysXshdJ+IOhYU2eNuZ8emmTSYst+Du3j6Gs/xHmm/vIyf0t30j3sTP3LLV3YZRHU9PspgazYqBEIh2VSpL8u/GSPYfcMG8Ass/3dwDb6UgqZCc0hex9Yqm8lw1E3TFirxGVKGOPuCA+kglO43yeH2CKoI8uuZMxI2ZY+BSwseuLPjHqB/vZFbX0BV9wMYnzA5BYTpL4asUOh945AUHwFmA1F9UWfnKtLkJNRyg="
 
 branches:
   only:
