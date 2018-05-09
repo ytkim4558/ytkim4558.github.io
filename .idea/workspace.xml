@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="push 찾아보자">
+    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output" afterPath="$PROJECT_DIR$/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
@@ -80,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="562">
-              <caret line="72" column="105" lean-forward="false" selection-start-line="72" selection-start-column="105" selection-end-line="72" selection-end-column="105" />
+              <caret line="72" column="52" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -118,8 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@g</find>
-      <find>@gi</find>
       <find>@git</find>
       <find>@gith</find>
       <find>@github</find>
@@ -148,6 +146,8 @@
       <find>GITHUB_TOKE</find>
       <find>GITHUB_TOKEN</find>
       <find>repo</find>
+      <find>$GIT_NAME</find>
+      <find>$GITHUB_TOKEN</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -340,7 +340,7 @@
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
       <workItem from="1525772205040" duration="20482000" />
-      <workItem from="1525824323237" duration="479000" />
+      <workItem from="1525824323237" duration="842000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -636,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525824446133</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="push 찾아보자">
+      <created>1525824806039</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1525824806039</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34031000" />
+    <option name="totallyTimeSpent" value="34394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -1100,7 +1107,7 @@
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
-          <caret line="72" column="105" lean-forward="false" selection-start-line="72" selection-start-column="105" selection-end-line="72" selection-end-column="105" />
+          <caret line="72" column="52" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="52" />
           <folding />
         </state>
       </provider>
