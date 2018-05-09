@@ -11,7 +11,6 @@ install:
 before_script:
   - git config --global user.email "ytkim4558@naver.com"
   - git config --global user.name "ytkim4558"
-  - git config --global token     "$GITHUB_TOKEN"
 
 script: bundle exec rake site:deploy --quiet #--trace
 
