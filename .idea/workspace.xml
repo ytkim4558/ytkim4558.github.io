@@ -92,8 +92,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="629">
+              <caret line="73" column="100" lean-forward="false" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -435,14 +435,7 @@
       <workItem from="1525766231852" duration="2833000" />
       <workItem from="1525772205040" duration="20482000" />
       <workItem from="1525824323237" duration="28717000" />
-      <workItem from="1525881898433" duration="440000" />
-    </task>
-    <task id="LOCAL-00024" summary="secure 위치 수정">
-      <created>1525788439673</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1525788439673</updated>
+      <workItem from="1525881898433" duration="898000" />
     </task>
     <task id="LOCAL-00025" summary="gitmodules 수정">
       <created>1525790035356</created>
@@ -780,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525881926314</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="travis ENV GITHUB_TOKEN 추가">
+      <created>1525882355335</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1525882355335</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62709000" />
+    <option name="totallyTimeSpent" value="63167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -827,7 +827,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="테스트 hooks" />
     <MESSAGE value="테스트 GH_TOKEN-&gt;GITHUB_TOKEN" />
     <MESSAGE value="secure 위치 수정" />
     <MESSAGE value="gitmodules 수정" />
@@ -852,7 +851,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="repository 변경후 테스트" />
     <MESSAGE value="--quiet 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="--quiet 제거" />
+    <MESSAGE value="travis ENV GITHUB_TOKEN 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis ENV GITHUB_TOKEN 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1237,8 +1237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="629">
+          <caret line="73" column="100" lean-forward="false" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
           <folding />
         </state>
       </provider>

@@ -57,7 +57,9 @@ namespace :site do
     check_destination
 
     sh "git checkout #{SOURCE_BRANCH}"
-    Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
+    Dir.chdir(CONFIG["destination"]) {
+    sh "git checkout #{DESTINATION_BRANCH}; git submodule update --recursive --remote"
+    }
 
     # Generate the site
     sh "bundle exec jekyll build"
