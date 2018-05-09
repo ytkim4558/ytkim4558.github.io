@@ -14,10 +14,7 @@ before_script:
 
 script: bundle exec rake site:deploy --quiet #--trace
 after_script:
-  - cd output
-  - git add .
-  - git commit -m "test"
-  - git push https://${GITHUB_TOKEN}@github.com/ytkim4558/ytkim4558.github.io.git master --quiet
+  - .travis/push.sh
 
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
