@@ -76,21 +76,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="72" column="121" lean-forward="false" selection-start-line="72" selection-start-column="121" selection-end-line="72" selection-end-column="121" />
+            <state relative-caret-position="1224">
+              <caret line="72" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="647">
+              <caret line="77" column="3" lean-forward="false" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -118,36 +128,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@git</find>
-      <find>@gith</find>
-      <find>@github</find>
-      <find>puts</find>
-      <find>&quot;</find>
-      <find>햣</find>
-      <find>햐</find>
-      <find>ㅎ</find>
-      <find>g</find>
-      <find>gith</find>
-      <find>github</find>
-      <find>github.</find>
-      <find>github.io</find>
-      <find>github.io.</find>
-      <find>github.io.g</find>
-      <find>github.io.gi</find>
-      <find>github.io.git</find>
-      <find>password</find>
-      <find>G</find>
       <find>GI</find>
       <find>GITH</find>
-      <find>GITHUB</find>
       <find>GITHUB_T</find>
-      <find>GITHUB_TO</find>
-      <find>GITHUB_TOK</find>
       <find>GITHUB_TOKE</find>
-      <find>GITHUB_TOKEN</find>
       <find>repo</find>
       <find>$GIT_NAME</find>
+      <find>Setting</find>
+      <find>before_</find>
       <find>$GITHUB_TOKEN</find>
+      <find>s</find>
+      <find>sec</find>
+      <find>secure</find>
+      <find>G</find>
+      <find>GIT</find>
+      <find>GITHUB</find>
+      <find>GITHUB_TO</find>
+      <find>GITHUB_TOK</find>
+      <find>GITHUB_TOKEN</find>
+      <find>source</find>
+      <find>S</find>
+      <find>SOUR</find>
+      <find>SOURCE</find>
+      <find>SOURCE_</find>
+      <find>SOURCE_B</find>
+      <find>SOURCE_BR</find>
+      <find>SOURCE_BRA</find>
+      <find>SOURCE_BRAN</find>
+      <find>SOURCE_BRANC</find>
+      <find>SOURCE_BRANCH</find>
+      <find>pull</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -172,8 +182,8 @@
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/output/Rakefile" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/output/Rakefile" />
       </list>
     </option>
   </component>
@@ -340,7 +350,7 @@
       <workItem from="1525731212288" duration="10237000" />
       <workItem from="1525766231852" duration="2833000" />
       <workItem from="1525772205040" duration="20482000" />
-      <workItem from="1525824323237" duration="1601000" />
+      <workItem from="1525824323237" duration="3861000" />
     </task>
     <task id="LOCAL-00001" summary="한글 폰트 설정">
       <created>1525740938048</created>
@@ -664,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525825643825</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="push 찾아보자">
+      <created>1525825929647</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1525825929647</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35153000" />
+    <option name="totallyTimeSpent" value="37413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -812,6 +829,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -889,6 +907,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,6 +946,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,6 +1021,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,6 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,14 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1117,18 +1135,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/Rakefile">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="131">
+          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="72" column="121" lean-forward="false" selection-start-line="72" selection-start-column="121" selection-end-line="72" selection-end-column="121" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="77" column="3" lean-forward="false" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
           <folding />
         </state>
       </provider>
