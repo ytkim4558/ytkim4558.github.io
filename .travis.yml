@@ -22,6 +22,13 @@ script: bundle exec rake site:deploy --quiet #--trace
 env:
   global:
     secure: "WAAm24Sw8WkHdHqCTKRq/bvFPkZU3LULW3VUHk3BkqQcn7Toi5ar9xoGMGeW8N6xZFYxU4t33gV4kmZS/L2hj5QaugWsg+/bzGbc+Psh9UE2aeH6GTw2lCG5KvlwRlEkvqxKpAnxl3fwyUTa9j/le0KrONWq6PJTBrPWJF6MGNav4N6EB2xkB+PRA6n/dfW+JaaPkVxBpZSzpsZQ2v44+KVRZEbxw723ea+nJTzSLb4z+lzKZCArIG3isci2ELxLdCLcWdXlaiQoPXMkUp2z6YzKW81IJrjeKKSTZyq1OHP+6AaHsdRPnRsMLk8rdJ9I1FA+UTaYpSbvSPqU/5leuk/zizRwMGTFZlXg82KzwshrO5ecKdoxeecC2S6d/8D6FrRVLrzCagFJaVNtMPNidWAxHTTfTCOnwzWUrgQb4ijALjm6caNt8VZxqZkTBFMwzTpbhzMl6QEJBHKD08ohrw8kcNyPvk/aOgvhn7wIBbpiW/xvrC1PydC3nzPwqdN2brLcvXCVUI1P2CjcsysPzbMwaxhqh4O12lostRmNKWfh3EBdLpFu8ym0LzDjxX0yAzaG1NNsMNx6vieZGMbaNdjO1pUPa12q+zCXfPAh5v8A5uYQ/WIu8b9BJ480396Yr81aDjnQ4YHYkDgz+3zZ0xj/j+H7PNGFkc3l3l8fMVM="
+
+before_install:
+  - composer config --global github-oauth.github.com "$GITHUB_TOKEN"
+
+install:
+  - composer install --dev --prefer-dist
+
 branches:
   only:
     - master
