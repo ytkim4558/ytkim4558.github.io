@@ -70,7 +70,7 @@ namespace :site do
 
         sh "git add --all ."
         sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-        sh "git push https://${GITHUB_TOKEN}@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --quiet;"
+        sh "git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --quiet"
 
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
