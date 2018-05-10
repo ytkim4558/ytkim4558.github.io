@@ -57,7 +57,7 @@ namespace :site do
     check_destination
 
     # git submodule add
-    # sh "git submodule add https://github.com/ytkim4558/ytkim4558.github.io.git output"
+    sh "git submodule add https://github.com/ytkim4558/ytkim4558.github.io.git output"
 
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) {
@@ -65,7 +65,7 @@ namespace :site do
     }
 
     # Submodule init & update
-    # sh "git submodule update --init --recursive"
+    sh "git submodule update --init --recursive"
 
     # Generate the site
     sh "bundle exec jekyll build"

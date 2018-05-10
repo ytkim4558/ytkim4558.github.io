@@ -78,8 +78,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="80" column="114" lean-forward="false" selection-start-line="80" selection-start-column="114" selection-end-line="80" selection-end-column="114" />
+            <state relative-caret-position="645">
+              <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -443,14 +443,7 @@
       <workItem from="1525824323237" duration="28717000" />
       <workItem from="1525881898433" duration="2607000" />
       <workItem from="1525884956240" duration="3135000" />
-      <workItem from="1525914835280" duration="4571000" />
-    </task>
-    <task id="LOCAL-00051" summary="push 찾아보자">
-      <created>1525830817356</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1525830817356</updated>
+      <workItem from="1525914835280" duration="5223000" />
     </task>
     <task id="LOCAL-00052" summary="push 찾아보자">
       <created>1525831109195</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525918787722</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="submodules=only 제거">
+      <created>1525919440324</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1525919440324</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72582000" />
+    <option name="totallyTimeSpent" value="73234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -835,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="사이트 수정중" />
     <MESSAGE value="덧글 기능 추가" />
     <MESSAGE value="disqus 코멘트 달기" />
     <MESSAGE value="이번엔 좀 되라아아아아아" />
@@ -860,7 +859,8 @@
     <MESSAGE value="submodule update가 문제인가" />
     <MESSAGE value="force로 강제 업로드" />
     <MESSAGE value="&quot; 잘못 막은 부분 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot; 잘못 막은 부분 수정" />
+    <MESSAGE value="submodules=only 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="submodules=only 제거" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1254,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="80" column="114" lean-forward="false" selection-start-line="80" selection-start-column="114" selection-end-line="80" selection-end-column="114" />
+        <state relative-caret-position="645">
+          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
           <folding />
         </state>
       </provider>
