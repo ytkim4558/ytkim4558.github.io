@@ -56,16 +56,19 @@ namespace :site do
     # Make sure destination folder exists as git repo
     check_destination
 
+    # git submodule add
+    sh "git submodule add https://github.com/moon9342/ytkim4558.github.io.git output"
+
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) {
     sh "git checkout #{DESTINATION_BRANCH}"
     }
 
+    # Submodule init & update
+    sh "git submodule init --recursive && git submodule update --recursive --remote && git submodule status"
+
     # Generate the site
     sh "bundle exec jekyll build"
-
-    # Submodule init & update
-    sh "git pull origin master && git submodule init && git submodule update --recursive --remote && git submodule status"
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
