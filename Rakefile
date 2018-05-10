@@ -73,7 +73,8 @@ namespace :site do
     sh "git pull"
 
     # Submodule init & update
-    sh "git submodule update --recursive"
+    sh "git submodule update --init --recursive"
+    sh "git submodule update --remote"
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
@@ -86,6 +87,7 @@ namespace :site do
          #   git add --all .;
          #   git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
          #   git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH};
+         sh "git pull"
          sh "git add --all"
          sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
          #sh "git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH}"

@@ -78,8 +78,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+            <state relative-caret-position="345">
+              <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -443,14 +443,7 @@
       <workItem from="1525824323237" duration="28717000" />
       <workItem from="1525881898433" duration="2607000" />
       <workItem from="1525884956240" duration="3135000" />
-      <workItem from="1525914835280" duration="2705000" />
-    </task>
-    <task id="LOCAL-00046" summary="push 찾아보자">
-      <created>1525825643825</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1525825643825</updated>
+      <workItem from="1525914835280" duration="2976000" />
     </task>
     <task id="LOCAL-00047" summary="push 찾아보자">
       <created>1525825929647</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525917323420</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="빌드 후 git pull">
+      <created>1525917552779</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1525917552779</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70716000" />
+    <option name="totallyTimeSpent" value="70987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -835,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="이번엔 좀 되라" />
     <MESSAGE value="composer setting.. 될까" />
     <MESSAGE value="push 왜 안되는거야 대체" />
     <MESSAGE value="robots.txt 잘못된 부분 수정" />
@@ -860,7 +859,8 @@
     <MESSAGE value="submodule 주소 수정" />
     <MESSAGE value="submodule update를 빌드후에 해보게끔 수정" />
     <MESSAGE value="submodule merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="submodule merge" />
+    <MESSAGE value="빌드 후 git pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="빌드 후 git pull" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1254,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        <state relative-caret-position="345">
+          <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
           <folding />
         </state>
       </provider>
