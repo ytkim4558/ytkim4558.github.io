@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
+    <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="submodule update가 문제인가">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
     </list>
@@ -78,8 +78,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+            <state relative-caret-position="458">
+              <caret line="67" column="6" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -443,14 +443,7 @@
       <workItem from="1525824323237" duration="28717000" />
       <workItem from="1525881898433" duration="2607000" />
       <workItem from="1525884956240" duration="3135000" />
-      <workItem from="1525914835280" duration="2976000" />
-    </task>
-    <task id="LOCAL-00047" summary="push 찾아보자">
-      <created>1525825929647</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1525825929647</updated>
+      <workItem from="1525914835280" duration="3390000" />
     </task>
     <task id="LOCAL-00048" summary="push 찾아보자">
       <created>1525828195935</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525917552779</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="submodule update가 문제인가">
+      <created>1525917823831</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1525917823831</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70987000" />
+    <option name="totallyTimeSpent" value="71401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -835,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="composer setting.. 될까" />
     <MESSAGE value="push 왜 안되는거야 대체" />
     <MESSAGE value="robots.txt 잘못된 부분 수정" />
     <MESSAGE value="사이트 수정중" />
@@ -860,7 +859,8 @@
     <MESSAGE value="submodule update를 빌드후에 해보게끔 수정" />
     <MESSAGE value="submodule merge" />
     <MESSAGE value="빌드 후 git pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="빌드 후 git pull" />
+    <MESSAGE value="submodule update가 문제인가" />
+    <option name="LAST_COMMIT_MESSAGE" value="submodule update가 문제인가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1254,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        <state relative-caret-position="458">
+          <caret line="67" column="6" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
           <folding />
         </state>
       </provider>

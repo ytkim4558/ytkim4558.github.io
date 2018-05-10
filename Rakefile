@@ -57,7 +57,7 @@ namespace :site do
     check_destination
 
     # git submodule add
-    sh "git submodule add https://github.com/ytkim4558/ytkim4558.github.io.git output"
+    # sh "git submodule add https://github.com/ytkim4558/ytkim4558.github.io.git output"
 
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) {
@@ -65,34 +65,21 @@ namespace :site do
     }
 
     # Submodule init & update
-    sh "git submodule update --init --recursive"
+    # sh "git submodule update --init --recursive"
 
     # Generate the site
     sh "bundle exec jekyll build"
-
-    sh "git pull"
-
-    # Submodule init & update
-    sh "git submodule update --init --recursive"
-    sh "git submodule update --remote"
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
        puts Dir.pwd
       # check if there is anything to add and commit, and pushes it
-      #sh "if [ -n '$(git status)' ]; then
-         #   git add --all .;
-         #   git pull origin master && git submodule init && git submodule update && git submodule update --remote && git submodule status.;
-         #   git add --all .;
-         #   git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
-         #   git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH};
-         sh "git pull"
-         sh "git add --all"
-         sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-         #sh "git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH}"
-         sh "git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --recurse-submodules=only"
-        # fi"
+      sh "if [ -n '$(git status)' ]; then
+            git add --all .;
+            git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
+            git push https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --recurse-submodules=only --force ;"
+         fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
   end
