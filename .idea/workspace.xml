@@ -65,16 +65,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3502">
-              <caret line="206" column="10" lean-forward="false" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2017-07-27-managing-users.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-27-managing-users.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,8 +78,18 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+            <state relative-caret-position="311">
+              <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="atom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
       <find>disqus</find>
       <find>simple</find>
       <find>submodule</find>
-      <find>DESTINATION_BRANCH</find>
       <find>sub</find>
+      <find>DESTINATION_BRANCH</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\ytkim\Documents\GitHub\ytkim4558.github.io\_layouts</dir>
@@ -443,14 +443,7 @@
       <workItem from="1525824323237" duration="28717000" />
       <workItem from="1525881898433" duration="2607000" />
       <workItem from="1525884956240" duration="3135000" />
-      <workItem from="1525914835280" duration="2143000" />
-    </task>
-    <task id="LOCAL-00044" summary="push 찾아보자">
-      <created>1525825170265</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1525825170265</updated>
+      <workItem from="1525914835280" duration="2479000" />
     </task>
     <task id="LOCAL-00045" summary="push 찾아보자">
       <created>1525825357338</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525916285869</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="submodule update를 빌드후에 해보게끔 수정">
+      <created>1525916991195</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1525916991195</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70154000" />
+    <option name="totallyTimeSpent" value="70490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -835,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="커밋은 되는지 체크" />
     <MESSAGE value="push 찾아보자" />
     <MESSAGE value="이번엔 좀 되라" />
     <MESSAGE value="composer setting.. 될까" />
@@ -860,7 +859,8 @@
     <MESSAGE value="submodule init, update 위치 수정" />
     <MESSAGE value="git submodule add" />
     <MESSAGE value="submodule 주소 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="submodule 주소 수정" />
+    <MESSAGE value="submodule update를 빌드후에 해보게끔 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="submodule update를 빌드후에 해보게끔 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1005,14 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,10 +1244,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/atom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+        <state relative-caret-position="311">
+          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
           <folding />
         </state>
       </provider>
