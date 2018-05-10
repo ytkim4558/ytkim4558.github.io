@@ -59,15 +59,13 @@ namespace :site do
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) {
     sh "git checkout #{DESTINATION_BRANCH}"
-    sh "git pull origin master && git submodule init && git submodule update && git submodule status"
-    sh "git submodule update --recursive --remote"
     }
-
-    # Submodule init & update
-    sh "git pull origin master && git submodule init && git submodule update && git submodule update --remote && git submodule status"
 
     # Generate the site
     sh "bundle exec jekyll build"
+
+    # Submodule init & update
+    sh "git pull origin master && git submodule init && git submodule update --recursive --remote && git submodule status"
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
