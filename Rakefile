@@ -65,12 +65,13 @@ namespace :site do
     }
 
     # Submodule init & update
-    sh "git submodule init"
-    sh "git submodule update --recursive --remote"
-    sh "git submodule status"
+    sh "git submodule update --init --recursive"
 
     # Generate the site
     sh "bundle exec jekyll build"
+
+    # Submodule init & update
+    sh "git submodule update --recursive"
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
