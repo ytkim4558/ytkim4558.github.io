@@ -65,7 +65,9 @@ namespace :site do
     }
 
     # Submodule init & update
-    sh "git submodule init --recursive && git submodule update --recursive --remote && git submodule status"
+    sh "git submodule init"
+    sh "git submodule update --recursive --remote"
+    sh "git submodule status"
 
     # Generate the site
     sh "bundle exec jekyll build"
