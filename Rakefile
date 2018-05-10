@@ -57,7 +57,7 @@ namespace :site do
     check_destination
 
     # git submodule add
-    sh "git submodule add https://github.com/moon9342/ytkim4558.github.io.git output"
+    sh "git submodule add https://github.com/ytkim4558/ytkim4558.github.io.git output"
 
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) {
