@@ -14,8 +14,7 @@
                 appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
             }
 
-            searchResults.innerHTML = '<li>' + results.length +'건 검색됨.</li>';
-            // searchResults.innerHTML = appendString;
+            searchResults.innerHTML = appendString;
         } else {
             searchResults.innerHTML = '<li>검색 결과가 없습니다.</li>';
         }
