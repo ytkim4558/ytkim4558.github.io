@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ef54b86-c100-4f26-a447-31aee8fa5a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +78,8 @@
       <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="577">
+              <caret line="80" column="149" lean-forward="true" selection-start-line="80" selection-start-column="149" selection-end-line="80" selection-end-column="149" />
               <folding />
             </state>
           </provider>
@@ -442,14 +443,7 @@
       <workItem from="1525824323237" duration="28717000" />
       <workItem from="1525881898433" duration="2607000" />
       <workItem from="1525884956240" duration="3135000" />
-      <workItem from="1525914835280" duration="3867000" />
-    </task>
-    <task id="LOCAL-00049" summary="push 찾아보자">
-      <created>1525828913300</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1525828913300</updated>
+      <workItem from="1525914835280" duration="3940000" />
     </task>
     <task id="LOCAL-00050" summary="push 찾아보자">
       <created>1525829927644</created>
@@ -787,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525918233436</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="force로 강제 업로드">
+      <created>1525918710708</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1525918710708</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71878000" />
+    <option name="totallyTimeSpent" value="71951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="158" width="2576" height="1416" extended-state="6" />
@@ -1253,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="577">
+          <caret line="80" column="149" lean-forward="true" selection-start-line="80" selection-start-column="149" selection-end-line="80" selection-end-column="149" />
           <folding />
         </state>
       </provider>
