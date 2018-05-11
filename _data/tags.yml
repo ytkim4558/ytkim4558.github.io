@@ -1,15 +1,7 @@
-speeches:
-  name: speeches
-  description: Some of the greatest words ever spoken.
-  cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
-  description: False
-  cover: False
-fables:
-  name: fables
-  description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
+jekyll:
+  name: Jkeyll
+  description: jkeyll 정적 HTML 블로그
+  cover: assets/images/octojekyll.png
 getting-started:
   name: getting-started
   description: False
