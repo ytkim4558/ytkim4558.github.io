@@ -8,10 +8,15 @@ class: page-template
 subclass: 'post page'
 ---
 
-안녕하세요 만나서 반갑습니다.
+안녕하세요 김용탁 블로그에 오신것을 환영합니다.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+제 블로그에서는 개발 정보, IT 뉴스, 개발자로서의 넉두리 등을 포스팅할 예정입니다.
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
+최대한 전문용어 남발을 배제하고 쉬운용어로 소통하도록 노력하고 있습니다.
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+포스팅 내용을 보고 이해 안되는 내용등은 바로 질문해주시고
+
+의견이 있으신 경우 덧글을 통해 자연스럽게 말해주셔도 좋습니다. 예) '아 제 생각에는.... ~합니다.' 또는 '공감합니다'. 등등..
+
+블로그 테마는 [Jasper2](http://jekyllthemes.org/themes/jasper2/) 를 사용하였습니다. 참고: [깃허브주소](https://github.com/jekyller/jasper2)
+ 
