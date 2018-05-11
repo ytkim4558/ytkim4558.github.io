@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-User-agent: *
-Disallow: /privateData/
 
 Sitemap: https://ytkim4558.github.io/sitemap.xml
