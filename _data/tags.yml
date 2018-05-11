@@ -1,8 +1,4 @@
-jekyll:
-  name: Jkeyll
+Jekyll:
+  name: jekyll
   description: jkeyll 정적 HTML 블로그
   cover: assets/images/octojekyll.png
-getting-started:
-  name: getting-started
-  description: False
-  cover: False

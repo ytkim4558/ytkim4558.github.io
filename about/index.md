@@ -1,6 +1,7 @@
 ---
 layout: page
 current: about
+cover:  assets/images/welcome.jpg
 title: About
 navigation: true
 logo: 'assets/images/ghost.png'
