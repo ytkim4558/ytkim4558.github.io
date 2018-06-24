@@ -125,7 +125,12 @@ subclass: 'post page'
 1. XLPagerTabStrip 라이브러리 탭 환경에서 다른 탭으로 화면전환시 데이터 전달하는 부분 구현
 1. 여행 국가 설정 화면 및 코드 개발 – TableView, CollectionView 이용
 #### 사용 기술 : RealmDB, Swift, Today Widget, HTTP, JTAppleCalendar, Swifty JSON, Pods, Git, Svn
-
+![popiece_ios1]({{"/assets/portfolio/image010.jpg"}})
+![popiece_ios2]({{"/assets/portfolio/image011.jpg"}})
+![popiece_ios3]({{"/assets/portfolio/image012.jpg"}})
+![popiece_ios4]({{"/assets/portfolio/image013.png"}})
+![popiece_ios5]({{"/assets/portfolio/image014.png"}})
+![popiece_ios6]({{"/assets/portfolio/image015.png"}})
 
 ## 6.2 ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
 회사소개 : 1999년 3월 31일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 소프트웨어(필기인식, 전자사전, 모바일OCR) 개발, 공급 사업을 하는 코스닥 기업. 자본금은 110억 2,797만원 매출액은 178억 2,470만원 사원수는 142명.
@@ -153,6 +158,12 @@ subclass: 'post page'
 - 키넥트 기반 모션인식 기술 개발, 싱글 카메라 기반 얼굴인식 및 손가락인식 개발. 
 - 안드로이드 기반 음성인식모듈, keyword Extractor 모듈(안드로이드 시스템에서 사용자가 검색한 문자열을 추출)개발
 
+### 스크린샷
+
+![kocca1]({{"/assets/portfolio/image016.jpg"}})
+![kocca2]({{"/assets/portfolio/image017.png"}})
+![kocca3]({{"/assets/portfolio/image018.png"}})
+
 #### 사용 기술 : C++(MFC), Android(Java), Ruby, SVN, Jira, Confluence, Fisheye
 - 이직 또는 퇴직 사유 : 경영 악화로 인한 이직. 
 
@@ -161,19 +172,30 @@ subclass: 'post page'
 <h1 id="사이드프로젝트기술서">7. 사이드프로젝트 기술서</h1> 
 
 ## 7.1 그룹주소록 App. 개발 (Android 개발)
-	그룹 단위로 관리할 수 있는 연락처 어플
-	프로그램 시연 동영상 주소
--	https://www.youtube.com/watch?v=60rDdIGMNBw
+- 그룹 단위로 관리할 수 있는 연락처 어플
+- 프로그램 시연 동영상 주소
+- https://www.youtube.com/watch?v=60rDdIGMNBw
+{% include youtubePlayer.html id=60rDdIGMNBw %}
 
 ## 7.2 ‘BikeNavi’ App. 개발 (Android 개발)
 ### 기간 : 2016.09 ~ 2016.11 (10주)
 ### 자전거 네비게이션 앱 개발
 ### 프로그램 시연 동영상 주소
 -	로그인 시연 : https://youtu.be/twEFkv44Kwk
+{% include youtubePlayer.html id=twEFkv44Kwk %}
 -	메인 기능 시연 : https://youtu.be/LR_fLXNpb2Y
+{% include youtubePlayer.html id=LR_fLXNpb2Y %}
 -	실제 라이딩에서 어플을 활용 시연 : https://youtu.be/NqDWp3VmwBI
+{% include youtubePlayer.html id=NqDWp3VmwBI %}
 #### 사용 기술 
 -	Android, Volley, Google API, Google Maps API, Tmap API, Facebook API, 카카오 서비스 API, Glide API, PHP, MySQL
+
+### 스크린샷
+![bikenavi1]({{"/assets/portfolio/image019.jpg"}})
+![bikenavi2]({{"/assets/portfolio/image020.png"}})
+![bikenavi3]({{"/assets/portfolio/image021.png"}})
+![bikenavi4]({{"/assets/portfolio/image022.png"}})
+![bikenavi5]({{"/assets/portfolio/image023.png"}})
 
 ## 7.3	‘HotDealppom’(핫딜뽐) App. 개발 (Android 개발)
 ### 기간 : 2016.12 ~ 2017.06 (설계 12주, 개발 8주)
@@ -189,6 +211,13 @@ subclass: 'post page'
 -	Scrapy, Android, Volley, Google API, Firebase API 
 -	PHP, Nginx, Glide API, MariaDB, Hadoop, Flume, KoNLPy, Alhazmy13wordcloud
 ### 프로그램 시연 동영상 주소 : https://youtu.be/VqLyBLSEtoQ
+{% include youtubePlayer.html id=page.youtubeId %}
+
+### 스크린샷
+![hotdealppom1]({{"/assets/portfolio/image025.png"}})
+![hotdealppom2]({{"/assets/portfolio/image026.png"}})
+![hotdealppom3]({{"/assets/portfolio/image027.png"}})
+![hotdealppom4]({{"/assets/portfolio/image028.png"}})
 
 ----------
 
