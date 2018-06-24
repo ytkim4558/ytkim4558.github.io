@@ -1,9 +1,8 @@
 ---
 layout: page
-current: post
+current: portfolio
 cover:  assets/images/welcome.jpg
 title: Portfolio
-tags: Portfolio
 navigation: true
 logo: 'assets/images/ghost.png'
 class: page-template
