@@ -1,3 +1,7 @@
+Portfolio:
+  name: portfolio
+  description: 포트폴리오
+  cover: assets/images/welcome.jpg
 Jekyll:
   name: jekyll
   description: jkeyll 정적 HTML 블로그
