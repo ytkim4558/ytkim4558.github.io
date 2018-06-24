@@ -173,20 +173,19 @@ subclass: 'post page'
 
 ## 7.1 그룹주소록 App. 개발 (Android 개발)
 - 그룹 단위로 관리할 수 있는 연락처 어플
-- 프로그램 시연 동영상 주소
-- https://www.youtube.com/watch?v=60rDdIGMNBw
-{% include youtubePlayer.html id=60rDdIGMNBw %}
+- 프로그램 시연
+{% include youtubePlayer.html id="60rDdIGMNBw" %}
 
 ## 7.2 ‘BikeNavi’ App. 개발 (Android 개발)
 ### 기간 : 2016.09 ~ 2016.11 (10주)
 ### 자전거 네비게이션 앱 개발
-### 프로그램 시연 동영상 주소
--	로그인 시연 : https://youtu.be/twEFkv44Kwk
-{% include youtubePlayer.html id=twEFkv44Kwk %}
--	메인 기능 시연 : https://youtu.be/LR_fLXNpb2Y
-{% include youtubePlayer.html id=LR_fLXNpb2Y %}
--	실제 라이딩에서 어플을 활용 시연 : https://youtu.be/NqDWp3VmwBI
-{% include youtubePlayer.html id=NqDWp3VmwBI %}
+### 프로그램 시연
+-	로그인 시연
+{% include youtubePlayer.html id="twEFkv44Kwk" %}
+-	메인 기능 시연
+{% include youtubePlayer.html id="LR_fLXNpb2Y" %}
+-	실제 라이딩에서 어플을 활용 시연
+{% include youtubePlayer.html id="NqDWp3VmwBI" %}
 #### 사용 기술 
 -	Android, Volley, Google API, Google Maps API, Tmap API, Facebook API, 카카오 서비스 API, Glide API, PHP, MySQL
 
@@ -210,8 +209,8 @@ subclass: 'post page'
 #### 사용 기술 
 -	Scrapy, Android, Volley, Google API, Firebase API 
 -	PHP, Nginx, Glide API, MariaDB, Hadoop, Flume, KoNLPy, Alhazmy13wordcloud
-### 프로그램 시연 동영상 주소 : https://youtu.be/VqLyBLSEtoQ
-{% include youtubePlayer.html id=page.youtubeId %}
+### 프로그램 시연
+{% include youtubePlayer.html id="VqLyBLSEtoQ" %}
 
 ### 스크린샷
 ![hotdealppom1]({{"/assets/portfolio/image025.png"}})
