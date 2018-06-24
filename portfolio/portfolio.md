@@ -1,6 +1,6 @@
 ---
-layout: post
-current: post
+layout: page
+current: Portfolio
 cover:  assets/images/ytkim4558.png
 navigation: True
 title: Portfolio
