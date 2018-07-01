@@ -2,3 +2,7 @@ Jekyll:
   name: jekyll
   description: jkeyll 정적 HTML 블로그
   cover: assets/images/octojekyll.png
+MySQL:
+  name: mysql
+  description: mysql 사용하면서 알아낸 정보 적기
+  cover: assets/images/mysql.jpg
