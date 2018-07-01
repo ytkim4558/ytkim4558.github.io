@@ -10,3 +10,7 @@ GIT:
   name: git
   description: git 사용하면서 알아낸 정보들
   cover: assets/images/git.png
+ANDROID:
+  name: android
+  description: android 앱 개발하면서 알아낸 정보들
+  cover: assets/images/android.png
