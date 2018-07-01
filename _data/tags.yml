@@ -4,5 +4,9 @@ Jekyll:
   cover: assets/images/octojekyll.png
 MySQL:
   name: mysql
-  description: mysql 사용하면서 알아낸 정보 적기
+  description: mysql 사용하면서 알아낸 정보들
   cover: assets/images/mysql.jpg
+GIT:
+  name: git
+  description: git 사용하면서 알아낸 정보들
+  cover: assets/images/git.png
