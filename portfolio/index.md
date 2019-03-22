@@ -29,8 +29,9 @@ subclass: 'post page'
 
 - Name : 김 용 탁 (KimYongTak)
 - Phone : 010-3356-4558
-- Github: https://github.com/ytkim4558/
-- SNS : https://www.facebook.com/ytkim4558
+- [Github 바로가기](https://github.com/ytkim4558/)
+- [SNS 바로가기](https://www.facebook.com/ytkim4558)
+- [Linkedin 프로필 바로가기](https://www.linkedin.com/in/yongtak-kim-b7553727/)
 - mail : ytkim4558@gmail.com
 - Address : 서울특별시 서초구 잠원동
 
