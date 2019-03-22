@@ -113,6 +113,13 @@ subclass: 'post page'
 - 담당 업무 : REST API 설계, 앱 시나리오 설계, 앱 디자인 및 ui 설계 및 기능 개발, DB 테이블 설계, 관리자 웹페이지 구성
 - 환경 : Swift4, Java, iOS, Android, PHP, Firebase, MySQL
 - etc : Moya network library
+![popiece_ios1]({{"/assets/portfolio/지매니.png"}})
+![popiece_ios2]({{"/assets/portfolio/지매니2.png"}})
+![popiece_ios3]({{"/assets/portfolio/지매니3.png"}})
+![popiece_ios4]({{"/assets/portfolio/지매니4.png"}})
+![popiece_ios4]({{"/assets/portfolio/지매니5.png"}})
+![popiece_ios4]({{"/assets/portfolio/지매니6.png"}})
+![popiece_ios4]({{"/assets/portfolio/지매니7.png"}})
 
 #### '지빌리티' 스쿠터 대여, 반납 기능 추가
 - 기간 : 2018.11 ~ 2018.12
@@ -134,8 +141,13 @@ subclass: 'post page'
 - 백그라운드 서비스를 안드로이드 오래오 버전에 대응해 포그라운드 서비스로 변경
 - 주차사진 보여주는 기능 구현
 - ring 버튼 구성
+- 서비스지역 보여주는 기능 추가
 - 주차 금지 구역 설정
 - 일주일에 한번씩 릴리즈
+![popiece_ios4]({{"/assets/portfolio/지빌리티서비스지역1.png"}})
+![popiece_ios4]({{"/assets/portfolio/지빌리티서비스지역2.png"}})
+![popiece_ios4]({{"/assets/portfolio/주차금지구역1.png"}})
+![popiece_ios4]({{"/assets/portfolio/주차금지구역2.png"}})
 
 ## 6.2 팀노바 (2017.07-2018.03) (9개월)
 - 회사소개 : 여행 플랫폼을 개발중인 벤처회사. 
