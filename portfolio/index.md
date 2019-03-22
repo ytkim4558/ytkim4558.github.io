@@ -39,6 +39,12 @@ subclass: 'post page'
 <h1 id="경력요약">2. 경력요약</h1>
 
 ## 지바이크           개발팀                  SW Engineer (2018.06.25~재직중)
+- 스쿠터 소셜 펀딩 iOS 앱 신규 개발
+- 스쿠터 소셜 크라우딩 안드로이드 앱 기능 추가
+- 지바이크앱에 스쿠터 대여, 반납 기능 추가 
+- 지매니저 하이브리드 앱 개발
+- 백엔드(서버 aws), 클라이언트(안드로이드 앱, 아이폰앱), 관리자웹, 디비 기능 추가 및 유지보수
+- 관리자앱 하이브리드 앱 개발
 
 ## 팀노바			포피스모바일팀            개발파트장	(2017.07.03-2018.03.19)
 -	포피스(Popiece)’ App. 개발 (Android 개발) 및 운영
@@ -65,8 +71,8 @@ subclass: 'post page'
 
 <h1 id="핵심역량">4. 핵심역량</h1>
 
-- Android 어플 개발 및 상용화 (포피스) 
-- iOS 어플 개발 
+- Android 어플 개발 및 상용화 
+- iOS 어플 개발 및 상용화
 - MySQL/MariaDB, Android, Apache 웹서버를 연계한 프로젝트 경험 보유
 - 오픈 소스 라이브러리 검색 및 사용 능함
 - Swift, Python, Kotlin, PHP, C++ 등 다양한 언어 능숙
@@ -82,7 +88,7 @@ subclass: 'post page'
 
 <h1 id="보유기술">5. 보유기술</h1>
 
-- Language : Kotlin, Java, C, C++, Swift, Python, PHP7, Javascript, AJAX, HTML, Ruby
+- Language : Kotlin, Java, C, C++, Objective-C, Swift, Python, PHP7, Javascript, AJAX, HTML, Ruby
 - Database : RealmDB, MySQL, MariaDB, SQLite, Hadoop
 - Library : OpenCV, Glide, GoogleMap API, TMap API, Facebook API, Kakao Service API, Firebase, KoNLPy, GSON, jsoup, Butter Knife
 - OS : Window, Linux, Android, iOS
@@ -97,7 +103,39 @@ subclass: 'post page'
 
 ## 6.1 G.Bike (2018.06-재직중)
 - 회사소개 : 현재 자동차 중심의 환경인 한국에서 녹색 도시 이동성을 혁신하는 이동 공유 기업이다. 
-- 개발팀, SW Engineer
+- 개발팀, SW Engineer, Manager
+
+### 프로젝트 진행사항
+
+#### '지매니' AOS, iOS 앱 신규 개발
+- 기간 : 2019.01~ 2019.03
+- 개요 : 스쿠터 소셜 크라우드 펀딩 앱. 저녁시간에 충전기를 구매한 Charger가 스쿠터의 QR코드를 스캔해서 락을 연후 집에 가져가서 충전한 후 집에 가져가면 돈을 버는 앱 1인 개발
+- 담당 업무 : REST API 설계, 앱 시나리오 설계, 앱 디자인 및 ui 설계 및 기능 개발, DB 테이블 설계, 관리자 웹페이지 구성
+- 환경 : Swift4, Java, iOS, Android, PHP, Firebase, MySQL
+- etc : Moya network library
+
+#### '지빌리티' 스쿠터 대여, 반납 기능 추가
+- 기간 : 2018.11 ~ 2018.12
+- 개요 :  기존 블루투스락 기반 자전거에서 통신 가능한 락으로 전동 킥보드를 대여 및 반납 플랫폼 신규 구축
+- 담당 업무 : REST API 설계, 앱 시나리오 설계, 앱 디자인 및 ui 설계 및 기능 개발, DB 테이블 설계, 관리자 웹페이지 구성
+- 환경 : Objective-C, JAVA, iOS, Android, PHP, Firebase, MySQL
+
+####  '지매니저' 하이브리드 앱 개발
+- 기간 : 2018.10 ~ 2018.11
+- 개요 : 관리자가 스쿠터 탐색, 수집 및 배치용도로 사용하는 앱 개발 
+- 담당 업무 : REST API 설계, 앱 시나리오 설계, 앱 디자인 및 ui 설계 및 기능 개발, DB 테이블 설계, 관리자 웹페이지 구성
+- 사용 기술 : PHP, React Native, HTTP, Git, Javascript, GoogleMap
+
+#### '지빌리티'앱, 백엔드(서버 aws), 클라이언트(안드로이드 앱, 아이폰앱), 관리자웹, 디비 기능 추가 및 유지보수
+- 기간 : 2018.06 ~ 현재
+- 고장난 자전거 스캔시 자전거 정비중 표시 팝업창 기능 추가
+- 회원탈퇴 기능 추가(잔액 조건, 약관, ui 기획 및 개발)
+- 관리자웹 지도에서 자전거 위치 이동 기능 추가
+- 백그라운드 서비스를 안드로이드 오래오 버전에 대응해 포그라운드 서비스로 변경
+- 주차사진 보여주는 기능 구현
+- ring 버튼 구성
+- 주차 금지 구역 설정
+- 일주일에 한번씩 릴리즈
 
 ## 6.2 팀노바 (2017.07-2018.03) (9개월)
 - 회사소개 : 여행 플랫폼을 개발중인 벤처회사. 
@@ -107,6 +145,7 @@ subclass: 'post page'
 - Android, iOS 앱 개발
 
 ### 프로젝트 진행사항
+
 #### ‘포피스(Popiece)’ App. 개발 (Android 개발) 및 운영
 - 기간 : 2017.07 ~ 2017.09
 - 개요 : 환율계산기, 여행가계부, 무음카메라를 잠금 화면에서 사용할 수 있는 여행 편의 App. 개발 
