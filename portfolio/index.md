@@ -113,6 +113,8 @@ subclass: 'post page'
 - 담당 업무 : REST API 설계, 앱 시나리오 설계, 앱 디자인 및 ui 설계 및 기능 개발, DB 테이블 설계, 관리자 웹페이지 구성
 - 환경 : Swift4, Java, iOS, Android, PHP, Firebase, MySQL
 - etc : Moya network library
+- Application URL(AOS): https://play.google.com/store/apps/details?id=io.gbility.gmany
+- Application URL(iOS): https://itunes.apple.com/kr/app/%EC%A7%80%EB%A7%A4%EB%8B%88-%EC%A7%80%EC%BF%A0%ED%84%B0-%EB%A7%A4%EB%8B%88%EC%A0%B8/id1456216777
 ![popiece_ios1]({{"/assets/portfolio/지매니.png"}})
 ![popiece_ios2]({{"/assets/portfolio/지매니2.png"}})
 ![popiece_ios3]({{"/assets/portfolio/지매니3.png"}})
@@ -126,6 +128,8 @@ subclass: 'post page'
 - 개요 :  기존 블루투스락 기반 자전거에서 통신 가능한 락으로 전동 킥보드를 대여 및 반납 플랫폼 신규 구축
 - 담당 업무 : REST API 설계, 앱 시나리오 설계, 앱 디자인 및 ui 설계 및 기능 개발, DB 테이블 설계, 관리자 웹페이지 구성
 - 환경 : Objective-C, JAVA, iOS, Android, PHP, Firebase, MySQL
+- Application URL(AOS): https://play.google.com/store/apps/details?id=com.gbike.gbike&hl=ko
+- Application URL(iOS): https://itunes.apple.com/kr/app//id1298412977?mt=8
 
 ####  '지매니저' 하이브리드 앱 개발
 - 기간 : 2018.10 ~ 2018.11
