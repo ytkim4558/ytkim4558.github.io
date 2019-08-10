@@ -39,7 +39,14 @@ subclass: 'post page'
 
 <h1 id="경력요약">2. 경력요약</h1>
 
-## 지바이크           개발팀                  SW Engineer (2018.06.25~재직중)
+## CJ 올리브 네트웍스 데이터플랫폼파트        System Eng. Senior Engineer (2019.07.01~재직중)
+- CGV 소셜데이터 분석서비스 SNS 채널 확장
+- 시스템 현황/구조 분석 진행
+- QFinder, CGV 소셜 데이터 분석 서비스의 Solr 현황 파악
+- Solr 데이터 적재 공간 부족이슈 원인 분석 및 해소
+- 확장한 SNS 채널 연관어 추출 추가 작업
+
+## 지바이크           개발팀                  SW Engineer (2018.06.25~2019.06.26)
 - 스쿠터 소셜 펀딩 iOS 앱 신규 개발
 - 스쿠터 소셜 크라우딩 안드로이드 앱 기능 추가
 - 지바이크앱에 스쿠터 대여, 반납 기능 추가 
@@ -84,32 +91,80 @@ subclass: 'post page'
 - 관계형 외 분산형 데이터베이스 및 빅데이터 등 최근 개발 트렌드 경험 보유
 - 크롤링, 수집기, 하둡 시스템 구축 경험을 통한 파이썬, 리눅스 시스템 사용 익숙
 - 코드 리뷰에 익숙하며 Git, Svn, Jira와 같은 협업 툴 사용 능숙
+- Solr, MongoDB, RabbitMQ 등 빅데이터 서비스와 관련된 검색엔진, NOSQL DB, Queue 개발 환경에도 노출됨.
 
 ----------
 
 <h1 id="보유기술">5. 보유기술</h1>
 
 - Language : Kotlin, Java, C, C++, Objective-C, Swift, Python, PHP7, Javascript, AJAX, HTML, Ruby
-- Database : RealmDB, MySQL, MariaDB, SQLite, Hadoop
+- Database : RealmDB, MySQL, MariaDB, SQLite, Hadoop, MongoDB, Solr, Redis
 - Library : OpenCV, Glide, GoogleMap API, TMap API, Facebook API, Kakao Service API, Firebase, KoNLPy, GSON, jsoup, Butter Knife
 - OS : Window, Linux, Android, iOS
 - Server : Apache, NginX
 - Network : Volley, HTTP, TCP/IP, XML, JSON
 - Tool : Git, SVN, Android Studio, PhpStorm, PyCharm, Xcode, Matlab, Toad, Confluence, Jira, Postman
-- Etc. : Flume
+- Etc. : Flume, RabbitMQ
 
 ----------
 
 <h1 id="경력기술서">6. 경력 기술서</h1> 
 
-## 6.1 G.Bike (2018.06-재직중)
+## 6.1 CJ 올리브 네트웍스 (2019.07.01~현재)
+- 회사소개 : Digital Experience와 신기술 기반 고객 비즈니스 가치를 창출하는 Intelligent ICT 전문기업
+- 데이터플랫폼파트, System Eng. Senior Engineer
+
+### 담당 업무
+- Bigdata 분석 플랫폼 구축 및 운영 
+
+### 프로젝트 진행사항
+#### CGV 소셜 데이터 분석서비스 채널 확장
+- 기간 : 2019.07.01 ~ 현재
+- 개요 : CGV 소셜 데이터 분석서비스에 새로운 SNS 채널 확장으로 인한 추가 작업 진행
+- 담당 업무 : 시스템 현황/구조 분석 진행, QFinder, CGV 소셜데이터분석서비스 의 Solr 현황 파악, Solr 데이터 적재공간부족 이슈 해소, 확장한 SNS 연관어 저장 작업 추가
+- 환경 : Solr, Redis, MongoDB, RabbitMQ
+
+## 6.2 G.Bike (2018.06-2019.06)
 - 회사소개 : 현재 자동차 중심의 환경인 한국에서 녹색 도시 이동성을 혁신하는 이동 공유 기업이다. 
 - 개발팀, SW Engineer, Manager
 
+### 담당 업무
+- Android, iOS 앱 개발, 벡엔드, DB 관리, 신규앱 기획 및 개발 
+
 ### 프로젝트 진행사항
 
+#### '지매니' 차량 장기간 대여기능 추가
+- 기간 : 2019.06.24~ 2019.06.26
+- 개요 : 사용자에게 1회성 대여가 아닌 일정 기간동안 대여할 수 있는 기능을 추가. 관련 테이블, 백엔드, 앱 기능 추가 
+- 담당 업무 : 관리자웹에 스쿠터 대여기간 설정하는 기능 추가, 이미 대여중인 차량은 다른사람이 앱에서 볼 수 없게 기능 추가, 대여자가 대여한 기간동안 요금이 발생하지 않게 기능 추가, DB 테이블 생성 및 수정
+- 환경 : Object-C, Java, iOS, Android, PHP, MySQL
+
+#### '지매니' 현상금 기능 추가
+- 기간 : 2019.06.17~ 2019.06.21
+- 개요 : 입금 시스템 자동화, 관리자가 사용자의 배치기록 보고 직접 입금하는 기존 시스템에서 시스템이 사용자가 스쿠터 배치할때 자동으로 잔금으로 충전해주는 방식으로 변경. 배치시 현상금이 0원으로 되게끔 수정   
+- 담당 업무 : 지매니 기능 수정, 백엔드 기능 수정
+- 환경 : Swift, Java, iOS, Android, PHP
+
+#### '지매니' 출금 기능 추가
+- 기간 : 2019.06.03~ 2019.06.14
+- 개요 : 수거한 지쿠터를 배치한 내역이 있는 Charger가 출금 신청하면 출금 내역 관리하여 관리자가 출금할 수 있도록 하는 기능 추가 
+- 담당 업무 : 관리자웹에 출금 신청 기록 확인 기능 추가 , 지매니앱에 출금 신청 기능 추가, 백엔드 관련 기능 추가, DB 신청 기록 테이블 추가
+- 환경 : Swift, Java, iOS, Android, PHP, MySQL
+
+#### '지빌리티' 운전면허 검증 기능 추가
+- 기간 : 2019.05.13~ 2019.05.31
+- 개요 : 운전면허 검증하는 기능 추가, 새로 회원가입하는 유저와 기존 회원가입된 유저가 면허증 추가하는 기능 추가, 면허가 필요한 차량탈 때 면허 있는지 조회하여 필터링하는 기능 추가 
+- 담당 업무 : 운전면허 검증 기능 추가 , DB 테이블 생성 및 수정, 백엔드 관련 기능 추가
+- 환경 : Object-C, Java, iOS, Android, PHP, Firebase, MySQL
+
+#### '지빌리티' 운전면허 검증 기능 추가
+- 기간 : 2019.05.13~ 2019.05.31
+- 개요 : 운전면허 검증하는 기능 추가, 새로 회원가입하는 유저와 기존 회원가입된 유저가 면허증 추가하는 기능 추가, 면허가 필요한 차량탈 때 면허 있는지 조회하여 필터링하는 기능 추가 
+- 담당 업무 : 운전면허 검증 기능 추가 , DB 테이블 생성 및 수정, 백엔드 관련 기능 추가
+- 환경 : Object-C, Java, iOS, Android, PHP, Firebase, MySQL
+
 #### '지매니' AOS, iOS 앱 신규 개발
-- 기간 : 2019.01~ 2019.03
+- 기간 : 2019.01~ 2019.05
 - 개요 : 스쿠터 소셜 크라우드 펀딩 앱. 저녁시간에 충전기를 구매한 Charger가 스쿠터의 QR코드를 스캔해서 락을 연후 집에 가져가서 충전한 후 집에 가져가면 돈을 버는 앱 1인 개발
 - 담당 업무 : REST API 설계, 앱 시나리오 설계, 앱 디자인 및 ui 설계 및 기능 개발, DB 테이블 설계, 관리자 웹페이지 구성
 - 환경 : Swift4, Java, iOS, Android, PHP, Firebase, MySQL
@@ -154,7 +209,7 @@ subclass: 'post page'
 ![popiece_ios4]({{"/assets/portfolio/주차금지구역1.png"}})
 ![popiece_ios4]({{"/assets/portfolio/주차금지구역2.png"}})
 
-## 6.2 팀노바 (2017.07-2018.03) (9개월)
+## 6.3 팀노바 (2017.07-2018.03) (9개월)
 - 회사소개 : 여행 플랫폼을 개발중인 벤처회사. 
 - 개발팀, 개발파트장
 
@@ -194,7 +249,7 @@ subclass: 'post page'
 ![popiece_ios5]({{"/assets/portfolio/image014.png"}})
 ![popiece_ios6]({{"/assets/portfolio/image015.png"}})
 
-## 6.3 ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
+## 6.4 ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
 회사소개 : 1999년 3월 31일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 소프트웨어(필기인식, 전자사전, 모바일OCR) 개발, 공급 사업을 하는 코스닥 기업. 자본금은 110억 2,797만원 매출액은 178억 2,470만원 사원수는 142명.
 개발팀, 대리
 
@@ -208,7 +263,7 @@ subclass: 'post page'
 
 - 이직 또는 퇴직 사유 : 전문연구요원 군 복무 만료 이후 자기 역량 계발
 
-## 6.4 ㈜디지탈아리아 (2011년 12월 ~ 2013년 03월) (1년 4개월)
+## 6.5 ㈜디지탈아리아 (2011년 12월 ~ 2013년 03월) (1년 4개월)
 회사소개 : 2000년 6월 7일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 전자부품 제조/소프트웨어(임베디드디바이스용 미들웨어, GUI 프레임워크) 개발, 판매, 기술용역 사업을 하는 코스닥 기업. 자본금은 115억 6,847만원 매출액은 144억 9,692만원 사원수는 88명.
 개발팀, 연구원
 
