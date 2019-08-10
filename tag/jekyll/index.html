@@ -11,7 +11,7 @@
 
 
 
-    <title>Search Result</title>
+    <title>Jekyll - YongTak IT Blog</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -27,19 +27,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Development & Technical Training" />
     <link rel="shortcut icon" href="https://ytkim4558.github.io/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://ytkim4558.github.io/search" />
+    <link rel="canonical" href="https://ytkim4558.github.io/tag/jekyll/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="YongTak IT Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Search Result" />
+    <meta property="og:title" content="Jekyll - YongTak IT Blog" />
     <meta property="og:description" content="Development & Technical Training" />
-    <meta property="og:url" content="https://ytkim4558.github.io/search" />
+    <meta property="og:url" content="https://ytkim4558.github.io/tag/jekyll/" />
     <meta property="og:image" content="https://ytkim4558.github.io/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:title" content="Jekyll - YongTak IT Blog" />
     <meta name="twitter:description" content="Development & Technical Training" />
     <meta name="twitter:url" content="https://ytkim4558.github.io/" />
     <meta name="twitter:image" content="https://ytkim4558.github.io/assets/images/blog-cover.jpg" />
@@ -59,7 +59,7 @@
         "name": "YongTak IT Blog",
         "logo": "https://ytkim4558.github.io/"
     },
-    "url": "https://ytkim4558.github.io/search",
+    "url": "https://ytkim4558.github.io/tag/jekyll/",
     "image": {
         "@type": "ImageObject",
         "url": "https://ytkim4558.github.io/assets/images/blog-cover.jpg",
@@ -68,7 +68,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://ytkim4558.github.io/search"
+        "@id": "https://ytkim4558.github.io/tag/jekyll/"
     },
     "description": "Development & Technical Training"
 }
@@ -83,20 +83,23 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml" />
 
 
 </head>
-<body class="page-template">
+<body class="tag-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
+        <!-- default -->
+<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer">
+<!-- #tag -->
+<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
+
+
+<header class="site-header outer " style="background-image: url(/assets/images/octojekyll.png) ">
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -129,91 +132,66 @@ into the {body} of the default.hbs template -->
     </div>
 </nav>
 
+        <div class="site-header-content">
+            <h1 class="site-title">Jekyll</h1>
+            <h2 class="site-description">
+                
+                    jkeyll 정적 HTML 블로그
+                
+            </h2>
+        </div>
     </div>
 </header>
+<!-- tag -->
 
-<!-- Everything inside the #post tags pulls data from the post -->
-<!-- #post -->
-
+<!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-
-        <article class="post-full post page no-image">
-
-            <header class="post-full-header">
-                <h1 class="post-full-title">Search Result</h1>
-            </header>
-
+        <div class="post-feed">
+            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             
+    <article class="post-card tag-template">
+        
+            <a class="post-card-image-link" href="/Jekyll">
+                <div class="post-card-image" style="background-image: url(/assets/images/octojekyll.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/Jekyll">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Jekyll</span>
+                            
+                        
+                    
 
-            <section class="post-full-content">
-                <form action="/search" method="get" hidden="hidden">
-    <label for="search-box"></label>
-    <input type="text" id="search-box" name="query">
-</form>
+                    <h2 class="post-card-title">Jekyll 드디어 검색 기능 수정하다.</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>검색기능을 붙이는데 꽤 애먹었다. 처음에는 lunr.js 는 내가 참고한 블로그 에서 말하는 것처럼 바로 lunrjs 사이트에서 최신 버전 받아서 테스트해보았으나 검색이 되지 않았다. 결국 몇번의 삽질 끝에 lunrjs 사이트에서 바로 받으면 사용하지 못하고</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/ytkim4558.png" alt="김용탁" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/ytkim4558/">김용탁</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
 
-<ul class="mylist" id="search-results"></ul>
 
-<script>
-    window.store = {
-    
-    "android": {
-        "title": "안드로이드 스튜디오 레이아웃 preview에서 각국언어 버전 보기",
-            "author": "ytkim4558",
-            "category": "",
-            "content": "회사에서 개발하는 앱이 영어, 한국어 버전을 동시에 지원한다.먼저 다국어버전을 만들려는 사람을 위해 설명하자면, strings.xml을 다국어버전으로 만들기 위해서는 다음의 절차를 거친다.      app -&gt; res -&gt; values -&gt; strings.xml 에서 오른쪽 버튼을 눌러 나온 메뉴에서 Open Translators Editor 항목을 클릭한다        좌측 위 지구본 모양을 클릭하여 원하는 언어를 추가한다.  회사에서는 이미 ko 버전도 영어버전과 같이 있었다.다만, 레이아웃에서 preview로 볼 때 각국 버전을 어떻게 보는지에 대해 검색하기가 매우 까다로웠다.직접 삽질한 결과해당 액티비티의 레이아웃에 가서 상단위의 기기명, 블루프린트 등이 보이는 부분중 AppTheme에 커서를 갖다대면 랭귀지 변경하는 창이 나온다.해당 탭 순서가 블루프린트, 기기, 안드로이드 버전, AppTheme, 언어변경탭 순으로 되어있어서 모니터가 작거나 하면 잘 보이지가 않는다.붉은색으로 표시한 부분 참고!",
-        "url": "/android"
-    }
-    ,
-    
-    "mysql": {
-        "title": "MySQL 일부 문자열 검색 기능 like",
-            "author": "ytkim4558",
-            "category": "",
-            "content": "회사에서 전화번호 뒷자리번호로 검색할 사용자를 검색할 필요가 있어 검색하는데 SQL 문이 기억이 안났다.막연히select * from member where mobile = '*4558';이런식으로 치는 나를 발견.. 당연히 되지 않았다.select * from member where mobile like '4558%';로 해야지 조회된다.",
-        "url": "/mysql"
-    }
-    ,
-    
-    "git": {
-        "title": "비공개 저장소를 이용한 fork를 사용하지 않은 PR 방법",
-            "author": "ytkim4558",
-            "category": "",
-            "content": "회사에서 깃 비공개 저장소를 이용하면서 브랜치를 만들고 PR을 만드는데 있어서, 어떤식으로 할 수 있는지 궁금했다.인터넷 검색 결과는 무조건 자신의 저장소에 fork를 하라고 되어있는데, 회사 정책상 자신의 저장소에 fork 하는 것을 허용 안하는 회사도 있다.삽질한 결과 알게된 것은 다음과 같다.      먼저 저장소를 로컬에 clone 한다.        로컬 branch를 만든다.        코드를 수정한다.        commit &amp; push를 한다.        저장소의 기능을 이용해 원래의 branch에 PR을 요청한다.  ",
-        "url": "/git"
-    }
-    ,
-    
-    "jekyll": {
-        "title": "Jekyll 드디어 검색 기능 수정하다.",
-            "author": "ytkim4558",
-            "category": "",
-            "content": "검색기능을 붙이는데 꽤 애먹었다.처음에는 lunr.js 는 내가 참고한 블로그 에서 말하는 것처럼 바로 lunrjs 사이트에서 최신 버전 받아서 테스트해보았으나 검색이 되지 않았다.결국 몇번의 삽질 끝에 lunrjs 사이트에서 바로 받으면 사용하지 못하고 0.7.2 버전을 받아서 검색기능되게끔 구현 완료했다.",
-        "url": "/Jekyll"
-    }
-    
-    
-    };
-</script>
-<script src="assets/js/lunr.js"></script>
-<script src="assets/js/search.js"></script>
-            </section>
-
-        </article>
-
+        </div>
     </div>
 </main>
-
-<!-- /post -->
-
-<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
-<script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
-
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -299,7 +277,7 @@ $(function() {
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('');
+        var maxPages = parseInt('1');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
@@ -322,14 +300,6 @@ $(function() {
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
-    
-        <script>
-$(function() {
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-});
-</script>
-
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->

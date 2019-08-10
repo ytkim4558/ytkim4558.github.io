@@ -1,28 +1,70 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title> - Articles</title>
+    <description>Development &amp; Technical Training</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    https://ytkim4558.github.io</link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>안드로이드 스튜디오 레이아웃 preview에서 각국언어 버전 보기</title>
+        
+          <description>&lt;p&gt;회사에서 개발하는 앱이 영어, 한국어 버전을 동시에 지원한다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 30 Jun 2018 21:23:23 +0000</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        https://ytkim4558.github.io/android</link>
+        <guid isPermaLink="true">https://ytkim4558.github.io/android</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>MySQL 일부 문자열 검색 기능 like</title>
+        
+          <description>&lt;p&gt;회사에서 전화번호 뒷자리번호로 검색할 사용자를 검색할 필요가 있어 검색하는데 SQL 문이 기억이 안났다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 30 Jun 2018 21:12:00 +0000</pubDate>
+        <link>
+        https://ytkim4558.github.io/mysql</link>
+        <guid isPermaLink="true">https://ytkim4558.github.io/mysql</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>비공개 저장소를 이용한 fork를 사용하지 않은 PR 방법</title>
+        
+          <description>&lt;p&gt;회사에서 깃 비공개 저장소를 이용하면서 브랜치를 만들고 PR을 만드는데 있어서, 어떤식으로 할 수 있는지 궁금했다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 28 Jun 2018 21:16:23 +0000</pubDate>
+        <link>
+        https://ytkim4558.github.io/git</link>
+        <guid isPermaLink="true">https://ytkim4558.github.io/git</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Jekyll 드디어 검색 기능 수정하다.</title>
+        
+          <description>&lt;p&gt;검색기능을 붙이는데 꽤 애먹었다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 11 May 2018 16:40:00 +0000</pubDate>
+        <link>
+        https://ytkim4558.github.io/Jekyll</link>
+        <guid isPermaLink="true">https://ytkim4558.github.io/Jekyll</guid>
+      </item>
+      
+    
   </channel>
 </rss>
